@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paginas",
+  "info": {
+    "singularName": "pagina",
+    "pluralName": "paginas",
+    "displayName": "pagina",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titulo"
+    },
+    "zona_dinamica": {
+      "type": "dynamiczone",
+      "components": [
+        "zona-dinamica.hero",
+        "zona-dinamica.novedades"
+      ]
+    }
+  }
+}

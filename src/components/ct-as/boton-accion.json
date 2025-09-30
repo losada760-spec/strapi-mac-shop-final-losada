@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ct_as_boton_accions",
+  "info": {
+    "displayName": "boton_accion",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

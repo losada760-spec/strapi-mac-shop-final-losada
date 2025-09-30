@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_zona_dinamica_novedades",
+  "info": {
+    "displayName": "novedades",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cabecera": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "imagen_claro": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagen_oscuro": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "texto": {
+      "type": "string"
+    },
+    "boton_accion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ct-as.boton-accion"
+    }
+  }
+}

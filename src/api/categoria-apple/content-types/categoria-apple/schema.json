@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categoria_apples",
+  "info": {
+    "singularName": "categoria-apple",
+    "pluralName": "categoria-apples",
+    "displayName": "categoria-apple",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "tipos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tipo.tipo"
+    }
+  }
+}

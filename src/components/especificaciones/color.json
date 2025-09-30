@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_especificaciones_colors",
+  "info": {
+    "displayName": "color",
+    "icon": "brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SKU": {
+      "type": "string"
+    },
+    "codigo_de_barras": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "capacidad": {
+      "type": "string"
+    }
+  }
+}

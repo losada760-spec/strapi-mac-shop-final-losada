@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datos_globals",
+  "info": {
+    "singularName": "datos-global",
+    "pluralName": "datos-globals",
+    "displayName": "datosGlobal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "linkBancoBogota": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_especificaciones_colores_del_dispositivos",
+  "info": {
+    "displayName": "colores-del-dispositivo",
+    "icon": "brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "displayName": "color",
+      "type": "component",
+      "repeatable": true,
+      "component": "especificaciones.color"
+    }
+  }
+}

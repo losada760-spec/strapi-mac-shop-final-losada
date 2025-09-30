@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "singularName": "producto",
+    "pluralName": "productos",
+    "displayName": "producto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "text",
+      "required": true
+    },
+    "precio": {
+      "type": "decimal",
+      "required": true
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "precioAnterior": {
+      "type": "decimal"
+    },
+    "insignia": {
+      "type": "string"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "populares",
+        "novedades",
+        "ofertas",
+        "usados",
+        "accesorios"
+      ]
+    },
+    "tipo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tipo.tipo"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nombre",
+      "required": true
+    },
+    "especificaciones": {
+      "type": "dynamiczone",
+      "components": [
+        "especificaciones.colores-del-dispositivo",
+        "especificaciones.capacidad"
+      ]
+    },
+    "modelo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::modelo.modelo",
+      "inversedBy": "producto"
+    },
+    "caracteristicas": {
+      "type": "text"
+    }
+  }
+}

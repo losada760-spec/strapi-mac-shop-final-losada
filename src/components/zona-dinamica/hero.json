@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_zona_dinamica_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "portadas": {
+      "displayName": "portadas",
+      "type": "component",
+      "repeatable": true,
+      "component": "zona-dinamica.portadas"
+    }
+  }
+}

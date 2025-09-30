@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_especificaciones_capacidads",
+  "info": {
+    "displayName": "capacidad",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "capacidadPrecio": {
+      "displayName": "capacidadPrecio",
+      "type": "component",
+      "repeatable": true,
+      "component": "especificaciones.capacidad-precio"
+    }
+  }
+}

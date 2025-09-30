@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_especificaciones_capacidad_precios",
+  "info": {
+    "displayName": "capacidadPrecio",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "capacidad": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "decimal"
+    }
+  }
+}

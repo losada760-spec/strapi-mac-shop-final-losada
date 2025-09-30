@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_zona_dinamica_portadas",
+  "info": {
+    "displayName": "portadas",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "boton_accion": {
+      "displayName": "boton_accion",
+      "type": "component",
+      "repeatable": true,
+      "component": "ct-as.boton-accion"
+    }
+  }
+}
